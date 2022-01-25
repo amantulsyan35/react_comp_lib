@@ -1,12 +1,10 @@
 import React from 'react'
-import { Text, Button } from 'react-ui'
+import { Avatar } from 'enkodu-ui'
 
 const App = () => {
     return (
         <React.Fragment>
-            <Text>Hi Text Component</Text>
-            <Button>Click me</Button>
-            <Button >Click me 2</Button>
+            <Avatar>Hello</Avatar>
         </React.Fragment>
     )
 }
