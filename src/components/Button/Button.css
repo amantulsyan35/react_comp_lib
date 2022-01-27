@@ -1,0 +1,69 @@
+.btn {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  text-decoration: none;
+  color: black;
+}
+
+.btn-primary {
+  background-color: var(--default-button);
+  opacity: 0.8;
+}
+
+.btn-primary:hover {
+  opacity: 1;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-button);
+  opacity: 0.8;
+}
+
+.btn-secondary:hover {
+  opacity: 1;
+}
+
+/* XS BUTTONS */
+
+.btn-xs {
+  width: 4.5rem;
+  padding: 0.3rem;
+  /* border-radius: 3px 3px 3px 3px; */
+}
+
+/* SM BUTTONS */
+
+.btn-sm {
+  width: 6rem;
+  padding: 0.5rem;
+  /* border-radius: 5px 5px 5px 5px; */
+}
+
+/* MD BUTTONS */
+
+.btn-md {
+  width: 7.5rem;
+  padding: 0.7rem;
+  /* border-radius: 7px 7px 7px 7px; */
+}
+
+/* LG BUTTONS */
+.btn-lg {
+  width: 9rem;
+  padding: 0.9rem;
+  /* border-radius: 9px 9px 9px 9px; */
+}
+
+.link-btn-xs {
+  width: 9rem;
+  padding: 0.4rem;
+  /* border-radius: 4px 4px 4px 4px; */
+}
+
+/* .link-btn-sm {
+  width: 50;
+  padding: 0.6rem;
+  border-radius: 4px 4px 4px 4px;
+} */
